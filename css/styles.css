@@ -82,7 +82,7 @@
 }
 .box{
     width: 100%;
-    height: 70px;
+    height: 40px;
     display: block;
     background-color: #3399ff;
     padding-bottom: 10px;
@@ -104,7 +104,7 @@
     font-size: 30px;
 }
 .color_box{
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 0 auto;
     border: 9px solid black;
     width: 70%;
