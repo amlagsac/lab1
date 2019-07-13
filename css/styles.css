@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #35438C;
+}
+.inner_header{
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.web_title{
+    height: 80px;
+    display: table;
+    float: left;
+}
+.web_title h1{
+    color:white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 300;
+}
+.web_title h1 span{
+    font-weight: 900;
+}
+.navigation a:last-child{
+    padding-right: 0;
+}
+.navigation{
+    float: right;
+    height: 100%;
+}
+.navigation a{
+    list-style: none;
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+}
+.navigation a li{
+    font-weight: 800;
+    width: 110px;
+    background-color: #35438C;
+    border: 1% solid #35438C;
+    line-height: 80px;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    text-align: center
+}
+.web_title h1:hover{
+    color: #DEAC2D;
+}
+.navigation a li:hover{
+    color: #DEAC2D;
+}
+.navigation ul {
+    display: none;
+}
+.navigation ul li {
+    color: white;
+    background-color: 35438C;
+}
+.navigation a li:hover > .inner_navigation{
+    display: inline;
+}
+.body_text{
+    background-color: #3399ff;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 1000px;
+}
+.box{
+    width: 100%;
+    height: 70px;
+    display: block;
+    background-color: #3399ff;
+    padding-bottom: 10px;
+}
+.color_box h1{
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+.color_box h2{
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+    font-family: 'Hind',sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+.color_box{
+    border-radius: 10px;
+    margin: 0 auto;
+    border: 9px solid black;
+    width: 70%;
+    height: 50%;
+    display: block;
+    background-color: white;
+}
+.color_box h3{
+    padding-top: 30px;
+    color: black;
+    text-align: center;
+    font-family: 'Hind',sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+.color_box img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 280px;
+}
