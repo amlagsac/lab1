@@ -16,12 +16,12 @@
     display: block;
     margin: 0 auto;
 }
-.web_title{
+.web_title a{
     height: 80px;
     display: table;
     float: left;
 }
-.web_title h1{
+.web_title a h1{
     color:white;
     height: 100%;
     display: table-cell;
@@ -30,7 +30,7 @@
     font-size: 25px;
     font-weight: 300;
 }
-.web_title h1 span{
+.web_title a h1 span{
     font-weight: 900;
 }
 .navigation a:last-child{
@@ -104,9 +104,9 @@
     font-size: 30px;
 }
 .color_box{
-    border-radius: 15px;
+    border-radius: 20px;
     margin: 0 auto;
-    border: 9px solid black;
+    border: 5px solid black;
     width: 70%;
     height: 50%;
     display: block;

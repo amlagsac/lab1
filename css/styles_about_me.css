@@ -16,12 +16,12 @@
     display: block;
     margin: 0 auto;
 }
-.web_title{
+.web_title a{
     height: 80px;
     display: table;
     float: left;
 }
-.web_title h1{
+.web_title a h1{
     color:white;
     height: 100%;
     display: table-cell;
@@ -30,7 +30,7 @@
     font-size: 25px;
     font-weight: 300;
 }
-.web_title h1 span{
+.web_title a h1 span{
     font-weight: 900;
 }
 .navigation a:last-child{
@@ -82,8 +82,29 @@
 }
 .box{
     width: 100%;
-    height: 3s0px;
+    height: 30px;
     display: block;
     background-color: #3399ff;
     padding-bottom: 10px;
+}
+.box_text{
+    border-radius: 20px;
+    margin-left: 40px;
+    border: 5px solid black;
+    width: 70%;
+    height: 500px;
+    display: block;
+    background-color: white;
+}
+.box_text h1{
+    text-align: left;
+    padding-left: 1%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+}
+.body_text p{
+    text-align: justify;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Rubik', sans-serif;
 }
