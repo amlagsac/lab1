@@ -89,22 +89,31 @@
 }
 .box_text{
     border-radius: 20px;
-    margin-left: 40px;
+    margin-left: 90px;
     border: 5px solid black;
     width: 70%;
     height: 500px;
     display: block;
     background-color: white;
 }
-.box_text h1{
+.inner_box_text h1{
     text-align: left;
+    padding-top: 1%;
     padding-left: 1%;
     font-family: 'Rubik', sans-serif;
     font-weight: bolder;
 }
-.body_text p{
+.inner_box_text p{
     text-align: justify;
     padding-left: 1%;
     padding-right: 1%;
     font-family: 'Rubik', sans-serif;
+}
+.accounts {
+    float: right;
+    list-style: none;
+}
+.accounts a img{
+    display: inline;
+    padding: 1px 50px;
 }
