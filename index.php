@@ -12,10 +12,10 @@
         <div class = "header">
             <div class = "inner_header">
                 <div class = "web_title">
-                    <a href = "index.html"><h1>C.S.<span>Diaries</span></h1></a>
+                    <a href = "index.php"><h1>C.S.<span>Diaries</span></h1></a>
                 </div>
                 <ul class = "navigation">
-                    <a href="index.html"><li>Home</li></a>
+                    <a href="index.php"><li>Home</li></a>
                     <a><li>Activities
                         <ul class = "inner_navigation">
                             <li>
@@ -29,7 +29,7 @@
                             </li>
                         </ul>
                     </li></a>
-                    <a href="about_me.html"><li>About Me</li></a>
+                    <a href="about_me.php"><li>About Me</li></a>
                 </ul>
             </div>
         </div>
